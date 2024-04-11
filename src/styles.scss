@@ -1,0 +1,25 @@
+.container {
+  height: 400px;
+  border: 1px solid #f5f5f5;
+  background-color: #f5f5f5;
+  text-align: center;
+
+  button {
+    width: 200px;
+    height: 32px;
+    border-radius: 4px;
+    border: none;
+    
+    &:hover {
+      background-color: lightgray;
+      cursor: pointer;
+    }
+  }
+
+  .container-fluid {
+    margin-left: 15px;
+    margin-right: 15px;
+  };
+
+  
+}
